@@ -1,7 +1,7 @@
 
 #ifndef SONAR_H
 #define SONAR_H
-#include "simu/RangeFinder.h"
+#include "RangeFinder.h"
 
 #include <string>
 

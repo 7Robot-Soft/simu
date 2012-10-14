@@ -1,5 +1,7 @@
 #include "NetSonar.h"
 
+namespace iacomm {
+    
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ NetSonar::~NetSonar ( ) { }
 void NetSonar::initAttributes ( ) {
 }
 
+};

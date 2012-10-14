@@ -40,7 +40,7 @@ public:
   float y;
   float z;
   float theta;
-  string id;
+  std::string id;
   float height;
 
 protected:
@@ -76,8 +76,6 @@ public:
 
 private:
 
-
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace

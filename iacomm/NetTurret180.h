@@ -2,6 +2,9 @@
 #ifndef NETTURRET180_H
 #define NETTURRET180_H
 
+#include "../simu/Turret180.h"
+#include "Net.h"
+
 #include <string>
 
 namespace iacomm {
@@ -12,7 +15,7 @@ namespace iacomm {
   * 
   */
 
-class NetTurret180
+class NetTurret180 : public Net
 {
 public:
 

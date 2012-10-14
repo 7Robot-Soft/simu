@@ -1,7 +1,7 @@
 
 #ifndef STATICBUILDER_H
 #define STATICBUILDER_H
-#include "scenebuilder/SceneBuilder.h"
+#include "SceneBuilder.h"
 
 #include <string>
 

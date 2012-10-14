@@ -1,9 +1,13 @@
 
 #ifndef ROBOT_H
 #define ROBOT_H
-#include "simu/Object.h"
+#include "Asserv.h"
+#include "Object.h"
+#include "Sensor.h"
 
+#include <Box2D/Box2D.h>
 #include <string>
+#include <vector>
 
 namespace simu {
 
@@ -12,6 +16,9 @@ namespace simu {
   * class Robot
   * 
   */
+  
+class Sensor;
+class Asserv;
 
 class Robot : public Object
 {
@@ -37,7 +44,7 @@ public:
   // Public attributes
   //  
 
-  vector<Sensor*> sensors;
+  std::vector<Sensor*> sensors;
   Asserv* asserv;
 
 

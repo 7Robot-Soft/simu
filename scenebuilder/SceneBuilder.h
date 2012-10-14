@@ -2,6 +2,10 @@
 #ifndef SCENEBUILDER_H
 #define SCENEBUILDER_H
 
+#include "../simu/Simulator.h"
+#include "../iacomm/Dispatcher.h"
+#include "../visu/View.h"
+
 #include <string>
 
 namespace scenebuilder {

@@ -1,10 +1,14 @@
+#include <stdio.h>
+
 #include "Sensor.h"
+
+namespace simu {
 
 // Constructors/Destructors
 //  
 
 Sensor::Sensor ( ) {
-initAttributes();
+    modifier = NULL;
 }
 
 Sensor::~Sensor ( ) { }
@@ -21,7 +25,5 @@ Sensor::~Sensor ( ) { }
 // Other methods
 //  
 
-void Sensor::initAttributes ( ) {
-  modifier = null;
-}
 
+}

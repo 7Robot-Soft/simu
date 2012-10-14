@@ -1,12 +1,20 @@
 
 #ifndef TURRET180_H
 #define TURRET180_H
-#include "simu/Sensor.h"
+
+#include "RangeFinder.h"
+#include "Sensor.h"
 
 #include <string>
+#include <vector>
 
 namespace simu {
 
+
+struct TurretAnswer{
+    float distance;
+    float angle;
+};
 
 /**
   * class Turret180
@@ -37,7 +45,7 @@ public:
   // Public attributes
   //  
 
-  vector<TurretAnswer> answer;
+  std::vector<TurretAnswer> answer;
 
 protected:
 
@@ -72,9 +80,6 @@ private:
 public:
 
 private:
-
-
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace

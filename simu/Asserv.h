@@ -3,9 +3,12 @@
 #define ASSERV_H
 
 #include <string>
+#include "Robot.h"
 
 namespace simu {
 
+
+class Robot;
 
 /**
   * class Asserv

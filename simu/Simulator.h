@@ -3,6 +3,10 @@
 #define SIMULATOR_H
 
 #include <string>
+#include <vector>
+#include <Box2D/Box2D.h>
+
+#include "Robot.h"
 
 namespace simu {
 
@@ -36,7 +40,7 @@ public:
   // Public attributes
   //  
 
-  vector<Robot*> robots;
+  std::vector<Robot*> robots;
   b2World* world;
 
 

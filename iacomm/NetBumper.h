@@ -1,7 +1,9 @@
 
 #ifndef NETBUMPER_H
 #define NETBUMPER_H
-#include "iacomm/Net.h"
+
+#include "../simu/Bumper.h"
+#include "Net.h"
 
 #include <string>
 

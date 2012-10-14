@@ -1,8 +1,9 @@
 
 #ifndef RANGEFINDER_H
 #define RANGEFINDER_H
-#include "simu/Sensor.h"
+#include "Sensor.h"
 
+#include <Box2D/Box2D.h>
 #include <string>
 
 namespace simu {
@@ -48,7 +49,7 @@ protected:
   // Protected attributes
   //  
 
-  b2World world;
+  b2World* world;
 public:
 
 protected:

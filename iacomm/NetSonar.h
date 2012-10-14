@@ -2,6 +2,9 @@
 #ifndef NETSONAR_H
 #define NETSONAR_H
 
+#include "../simu/Sonar.h"
+#include "Net.h"
+
 #include <string>
 
 namespace iacomm {
@@ -12,7 +15,7 @@ namespace iacomm {
   * 
   */
 
-class NetSonar
+class NetSonar : public Net
 {
 public:
 

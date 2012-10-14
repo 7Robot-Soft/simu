@@ -1,5 +1,7 @@
 #include "Bumper.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ Bumper::~Bumper ( ) { }
 void Bumper::initAttributes ( ) {
 }
 
+}

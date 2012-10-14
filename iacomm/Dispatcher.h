@@ -3,6 +3,9 @@
 #define DISPATCHER_H
 
 #include <string>
+#include <vector>
+
+#include "Net.h"
 
 namespace iacomm {
 
@@ -36,7 +39,7 @@ public:
   // Public attributes
   //  
 
-  iacomm::Net entities;
+  std::vector<Net> entities;
 
 
   /**

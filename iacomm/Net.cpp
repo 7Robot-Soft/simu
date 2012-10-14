@@ -1,5 +1,7 @@
 #include "Net.h"
 
+namespace iacomm {
+    
 // Constructors/Destructors
 //  
 
@@ -21,3 +23,4 @@ Net::~Net ( ) { }
 //  
 
 
+}

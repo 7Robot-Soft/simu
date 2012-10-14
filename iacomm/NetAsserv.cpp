@@ -1,5 +1,7 @@
 #include "NetAsserv.h"
 
+namespace iacomm {
+    
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ NetAsserv::~NetAsserv ( ) { }
 void NetAsserv::initAttributes ( ) {
 }
 
+}

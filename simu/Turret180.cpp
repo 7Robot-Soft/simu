@@ -1,10 +1,11 @@
 #include "Turret180.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
 Turret180::Turret180 ( ) {
-initAttributes();
 }
 
 Turret180::~Turret180 ( ) { }
@@ -21,6 +22,4 @@ Turret180::~Turret180 ( ) { }
 // Other methods
 //  
 
-void Turret180::initAttributes ( ) {
 }
-

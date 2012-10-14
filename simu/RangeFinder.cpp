@@ -1,5 +1,7 @@
 #include "RangeFinder.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ RangeFinder::~RangeFinder ( ) { }
 void RangeFinder::initAttributes ( ) {
 }
 
+}

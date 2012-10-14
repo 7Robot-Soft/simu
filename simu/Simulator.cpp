@@ -1,5 +1,7 @@
 #include "Simulator.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ Simulator::~Simulator ( ) { }
 void Simulator::initAttributes ( ) {
 }
 
+}

@@ -1,5 +1,6 @@
 #include "Dispatcher.h"
 
+namespace iacomm {
 // Constructors/Destructors
 //  
 
@@ -24,3 +25,4 @@ Dispatcher::~Dispatcher ( ) { }
 void Dispatcher::initAttributes ( ) {
 }
 
+}

@@ -1,5 +1,6 @@
 #include "Communicator.h"
 
+namespace iacomm {
 // Constructors/Destructors
 //  
 
@@ -24,3 +25,4 @@ Communicator::~Communicator ( ) { }
 void Communicator::initAttributes ( ) {
 }
 
+}

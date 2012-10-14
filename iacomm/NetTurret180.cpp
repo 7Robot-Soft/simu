@@ -1,5 +1,7 @@
 #include "NetTurret180.h"
 
+namespace iacomm {
+    
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ NetTurret180::~NetTurret180 ( ) { }
 void NetTurret180::initAttributes ( ) {
 }
 
+};

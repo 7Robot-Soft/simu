@@ -1,5 +1,7 @@
 #include "Robot.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ Robot::~Robot ( ) { }
 void Robot::initAttributes ( ) {
 }
 
+}

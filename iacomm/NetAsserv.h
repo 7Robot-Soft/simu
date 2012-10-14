@@ -2,6 +2,9 @@
 #ifndef NETASSERV_H
 #define NETASSERV_H
 
+#include "../simu/Asserv.h"
+#include "Net.h"
+
 #include <string>
 
 namespace iacomm {
@@ -12,7 +15,7 @@ namespace iacomm {
   * 
   */
 
-class NetAsserv
+class NetAsserv : public Net
 {
 public:
 

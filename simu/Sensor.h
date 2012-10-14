@@ -1,10 +1,15 @@
 
 #ifndef SENSOR_H
 #define SENSOR_H
-#include "simu/Object.h"
-#include "simu/Object.h"
+
+#include "Modifier.h"
+#include "Object.h"
+#include "Robot.h"
 
 #include <string>
+#include <vector>
+
+class Robot;
 
 namespace simu {
 
@@ -14,7 +19,7 @@ namespace simu {
   * 
   */
 
-class Sensor : public Object, public Object
+class Sensor : public Object
 {
 public:
 
@@ -38,8 +43,8 @@ public:
   // Public attributes
   //  
 
-  vector<Objet*> sensedObjects;
-  simu::Modifier modifier;
+  std::vector<Object*> sensedObjects;
+  Modifier* modifier;
 
 
   /**
@@ -82,8 +87,6 @@ public:
 
 private:
 
-
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace

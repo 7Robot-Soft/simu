@@ -1,5 +1,7 @@
 #include "StaticBuilder.h"
 
+namespace scenebuilder {
+
 // Constructors/Destructors
 //  
 
@@ -21,3 +23,4 @@ StaticBuilder::~StaticBuilder ( ) { }
 //  
 
 
+}

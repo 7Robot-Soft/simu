@@ -1,5 +1,7 @@
 #include "Sonar.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
@@ -25,3 +27,4 @@ void Sonar::initAttributes ( ) {
   mute = true;
 }
 
+}

@@ -1,10 +1,11 @@
 #include "Object.h"
 
+namespace simu {
+
 // Constructors/Destructors
 //  
 
 Object::Object ( ) {
-initAttributes();
 }
 
 Object::~Object ( ) { }
@@ -20,7 +21,4 @@ Object::~Object ( ) { }
 
 // Other methods
 //  
-
-void Object::initAttributes ( ) {
 }
-

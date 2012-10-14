@@ -1,5 +1,7 @@
 #include "NetBumper.h"
 
+namespace iacomm {
+    
 // Constructors/Destructors
 //  
 
@@ -24,3 +26,4 @@ NetBumper::~NetBumper ( ) { }
 void NetBumper::initAttributes ( ) {
 }
 
+};

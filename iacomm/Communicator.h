@@ -2,6 +2,8 @@
 #ifndef COMMUNICATOR_H
 #define COMMUNICATOR_H
 
+#include "Dispatcher.h"
+
 #include <string>
 
 namespace iacomm {

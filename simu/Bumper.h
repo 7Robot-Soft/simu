@@ -1,7 +1,7 @@
 
 #ifndef BUMPER_H
 #define BUMPER_H
-#include "simu/RangeFinder.h"
+#include "RangeFinder.h"
 
 #include <string>
 
