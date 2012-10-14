@@ -1,0 +1,3 @@
+[submodule "visu"]
+    path = visu
+    url = git@github.com:7Robot-Soft/visu.git
