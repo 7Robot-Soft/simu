@@ -24,7 +24,9 @@ public:
   /**
    * Empty Constructor
    */
-  Sonar ( );
+  Sonar ( std::string id, float x, float y, float z, float theta, 
+          Robot* robot, b2World* world,
+          float zmin, float zmax, float rangeMax);
 
   /**
    * Empty Destructor
@@ -73,8 +75,6 @@ public:
 
 private:
 
-
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace

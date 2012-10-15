@@ -35,9 +35,8 @@ public:
    * @param  dispatcher
    * @param  view
    */
-  virtual int create_scene (char* file, simu::Simulator* simulator, iacomm::Dispatcher* dispatcher, visu::View view )
-  {
-  }
+  virtual int create_scene (char* file, simu::Simulator* simulator, iacomm::Dispatcher* dispatcher, visu::View view ) = 0;
+
 
 protected:
 

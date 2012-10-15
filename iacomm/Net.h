@@ -45,6 +45,7 @@ public:
    */
   int parse (char* buffer, unsigned int length )
   {
+      return 0;
   }
 
 
@@ -53,6 +54,7 @@ public:
    */
   int send ( )
   {
+      return 0;
   }
 
 protected:

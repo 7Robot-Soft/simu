@@ -23,7 +23,7 @@ public:
   /**
    * Empty Constructor
    */
-  Object ( );
+  Object (std::string id, float x, float y, float z, float theta, float height);
 
   /**
    * Empty Destructor
@@ -35,12 +35,11 @@ public:
 
   // Public attributes
   //  
-
+  std::string id;
   float x;
   float y;
   float z;
   float theta;
-  std::string id;
   float height;
 
 protected:

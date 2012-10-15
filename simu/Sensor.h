@@ -30,7 +30,7 @@ public:
   /**
    * Empty Constructor
    */
-  Sensor ( );
+  Sensor (std::string id, float x, float y, float z, float theta, Robot* robot);
 
   /**
    * Empty Destructor
@@ -49,7 +49,7 @@ public:
 
   /**
    */
-  void step ( )
+  virtual void step ( )
   {
   }
 

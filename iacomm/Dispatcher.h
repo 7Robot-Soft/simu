@@ -49,6 +49,7 @@ public:
    */
   int dispatch (char* buffer, unsigned int length )
   {
+      return 0;
   }
 
 protected:

@@ -3,6 +3,7 @@
 #define BUMPER_H
 #include "RangeFinder.h"
 
+#include <Box2D/Box2D.h>
 #include <string>
 
 namespace simu {
@@ -24,7 +25,9 @@ public:
   /**
    * Empty Constructor
    */
-  Bumper ( );
+  Bumper ( std::string id, float x, float y, float z, float theta, 
+          Robot* robot, b2World* world,
+          float zmin, float zmax, float rangeMax=0.02);
 
   /**
    * Empty Destructor
@@ -71,9 +74,6 @@ private:
 public:
 
 private:
-
-
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace

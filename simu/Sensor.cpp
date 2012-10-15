@@ -7,7 +7,8 @@ namespace simu {
 // Constructors/Destructors
 //  
 
-Sensor::Sensor ( ) {
+Sensor::Sensor (std::string id, float x, float y, float z, float theta, Robot* robot) :
+        robot(robot), Object(id, x, y, z, theta, 0) {
     modifier = NULL;
 }
 

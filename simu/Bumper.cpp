@@ -5,8 +5,11 @@ namespace simu {
 // Constructors/Destructors
 //  
 
-Bumper::Bumper ( ) {
-initAttributes();
+Bumper::Bumper ( std::string id, float x, float y, float z, float theta, 
+          Robot* robot, b2World* world,
+          float zmin, float zmax, float rangeMax):
+RangeFinder(id, x, y, z, theta, robot, world, z-0.01, z+0.01, rangeMax)
+{
 }
 
 Bumper::~Bumper ( ) { }
@@ -22,8 +25,5 @@ Bumper::~Bumper ( ) { }
 
 // Other methods
 //  
-
-void Bumper::initAttributes ( ) {
-}
 
 }

@@ -5,8 +5,9 @@ namespace simu {
 // Constructors/Destructors
 //  
 
-Robot::Robot ( ) {
-initAttributes();
+Robot::Robot (std::string id, float x, float y, float z, float theta, float height) :
+Object(id, x, y, z, theta, height)
+{
 }
 
 Robot::~Robot ( ) { }
@@ -23,7 +24,6 @@ Robot::~Robot ( ) { }
 // Other methods
 //  
 
-void Robot::initAttributes ( ) {
-}
+
 
 }

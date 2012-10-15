@@ -31,7 +31,7 @@ public:
   /**
    * Empty Constructor
    */
-  Robot ( );
+  Robot (std::string id, float x, float y, float z, float theta, float height);
 
   /**
    * Empty Destructor
@@ -89,7 +89,6 @@ public:
 private:
 
 
-  void initAttributes ( ) ;
 
 };
 }; // end of package namespace
