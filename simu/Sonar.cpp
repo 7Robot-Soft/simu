@@ -5,10 +5,9 @@ namespace simu {
 // Constructors/Destructors
 //  
 
-Sonar::Sonar ( std::string id, float x, float y, float z, float theta, 
-          Robot* robot, b2World* world,
-          float zmin, float zmax, float rangeMax) :
-RangeFinder(id, x, y, z, theta, robot, world, zmin, zmax, rangeMax), mute(true)
+Sonar::Sonar ( std::string id, float x, float y, float z, float theta, float height, 
+          Robot* robot, b2World* world,  float rangeMax) :
+RangeFinder(id, x, y, z, theta, height, robot, world, rangeMax), mute(true)
 {
 
 }

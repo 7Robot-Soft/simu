@@ -8,7 +8,7 @@ namespace simu {
 Bumper::Bumper ( std::string id, float x, float y, float z, float theta, 
           Robot* robot, b2World* world,
           float zmin, float zmax, float rangeMax):
-RangeFinder(id, x, y, z, theta, robot, world, z-0.01, z+0.01, rangeMax)
+RangeFinder(id, x, y, z, theta, 0.02, robot, world, rangeMax)
 {
 }
 

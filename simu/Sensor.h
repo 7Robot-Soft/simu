@@ -30,7 +30,8 @@ public:
   /**
    * Empty Constructor
    */
-  Sensor (std::string id, float x, float y, float z, float theta, Robot* robot);
+  Sensor (std::string id, float x, float y, float z, float theta, float height, Robot* robot);
+  /// height <- la plage de sensibilité vertical du capteur
 
   /**
    * Empty Destructor

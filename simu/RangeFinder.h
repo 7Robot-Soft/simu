@@ -57,9 +57,8 @@ public:
   /**
    * Empty Constructor
    */
-  RangeFinder ( std::string id, float x, float y, float z, float theta, 
-          Robot* robot, b2World* world,
-          float zmin, float zmax, float rangeMax);
+  RangeFinder ( std::string id, float x, float y, float z, float theta, float height,
+          Robot* robot, b2World* world, float rangeMax);
 
   /**
    * Empty Destructor
@@ -74,19 +73,18 @@ public:
   // Public attributes
   //  
 
-  float rangeMax;
-  float distance;
+  
   
 
 protected:
 
   // Protected attributes
-  //  
-    float zmin;
-    float zmax;
+
 
   b2World* world;
 public:
+  float rangeMax;
+  float distance;
 
 protected:
 

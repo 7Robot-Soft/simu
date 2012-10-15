@@ -10,10 +10,9 @@ namespace simu {
     
 
 
-RangeFinder::RangeFinder ( std::string id, float x, float y, float z, float theta, 
-          Robot* robot, b2World* world,
-          float zmin, float zmax, float rangeMax) :
-Sensor(id, x, y, z, theta, robot), world(world), rangeMax(rangeMax), zmin(zmin), zmax(zmax)
+RangeFinder::RangeFinder ( std::string id, float x, float y, float z, float theta, float height, 
+          Robot* robot, b2World* world, float rangeMax) :
+Sensor(id, x, y, z, theta, height, robot), world(world), rangeMax(rangeMax)
 {
     
 }
@@ -26,7 +25,7 @@ RangeFinder::~RangeFinder ( ) { }
 void RangeFinder::step()
 {
     distance = 0.0f;
-    RayCastCallback callback = RayCastCallback(zmin, zmax);
+    RayCastCallback callback = RayCastCallback(z, z+height);
     world->RayCast(&callback, b2Vec2(robot->x+x, robot->y+y), 
             b2Vec2(rangeMax*cosf(robot->theta+theta)+robot->x+x, 
                    rangeMax*sinf(robot->theta+theta)+robot->y+y));
